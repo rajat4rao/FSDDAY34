@@ -12,13 +12,13 @@ The API documentation is available in following Postman URL: https://documenter.
 
 ## Render URL
 
-- **Render URL:** `https://fsdday34.onrender.com/`
+- **Render URL:** `https://hall-booking-fsdday34.onrender.com/`
 
 ## Endpoints
 
 ### 1. Create Room
 
-**Request URL:** `POST https://fsdday34.onrender.com/create-rooms`
+**Request URL:** `POST https://hall-booking-fsdday34.onrender.com/create-rooms`
 
 **Request Body:**
 
@@ -48,7 +48,7 @@ This endpoint creates a new room with the specified number of seats, amenities, 
 
 ### 2. Book Room
 
-**Request URL:** `POST https://fsdday34.onrender.com/book-room`
+**Request URL:** `POST https://hall-booking-fsdday34.onrender.com/book-room`
 
 **Request Body:**
 
@@ -98,7 +98,7 @@ This endpoint books a room for a customer on a specified date and time.
 
 ### 3. List All Rooms with Booked Data
 
-**Request URL:** `GET https://fsdday34.onrender.com/list-booked-rooms`
+**Request URL:** `GET https://hall-booking-fsdday34.onrender.com/list-booked-rooms`
 
 **Description:**  
 This endpoint retrieves a list of all rooms along with their booking details.
@@ -131,7 +131,7 @@ This endpoint retrieves a list of all rooms along with their booking details.
 
 ### 4. List All Customers with Booked Data
 
-**Request URL:** `GET https://fsdday34.onrender.com/customers`
+**Request URL:** `GET https://hall-booking-fsdday34.onrender.com/customers`
 
 **Description:**  
 This endpoint retrieves a list of all customers along with their booking details.
@@ -155,7 +155,7 @@ This endpoint retrieves a list of all customers along with their booking details
 
 ### 5\. List Bookings by Customer
 
-**Request URL:** `GET https://fsdday34.onrender.com/customers/:customerName`
+**Request URL:** `GET https://hall-booking-fsdday34.onrender.com/customers/:customerName`
 
 **Description:**  
 This endpoint retrieves all bookings made by a specific customer.
